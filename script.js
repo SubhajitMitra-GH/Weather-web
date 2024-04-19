@@ -11,8 +11,8 @@ async function checkWeather(city){
         alert("No such location found");
     }
     else{
-    document.querySelector(".temp").innerHTML="Temperature:"+Math.round(data.main.temp)+"°C";
-    document.querySelector(".Location").innerHTML="Location:"+data.name;
+    document.querySelector(".temp").innerHTML="Temperature: "+Math.round(data.main.temp)+"°C";
+    document.querySelector(".Location").innerHTML="Location: "+data.name;
     document.querySelector(".wind").innerHTML=data.wind.speed+" kmph";
     document.querySelector(".humid").innerHTML=data.main.humidity;
     document.querySelector(".press").innerHTML=data.main.pressure;
