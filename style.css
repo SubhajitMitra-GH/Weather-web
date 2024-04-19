@@ -125,6 +125,7 @@ span{
 }
 h1{
     color:yellow;
+    width:50vh;
 }
 button{
     cursor: pointer;
@@ -133,6 +134,8 @@ p{
     overflow: hidden;
     font-size: large;
     font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 button:hover{
     background-color: aqua;
